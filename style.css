@@ -85,3 +85,29 @@ header {
 .img-box:hover img {
     transform: scale(1.1);
 }
+
+.product-box .product-title {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.product-box .price-and-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-and-cart .price {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.price-and-cart .add-cart {
+    padding: 10px;
+    background: #e35f26;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+
